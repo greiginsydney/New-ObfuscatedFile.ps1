@@ -1,7 +1,7 @@
 # New-ObfuscatedFile.ps1
-Do you ever need to send log files to Microsoft and other vendors from customers who have strict IT security requirements? Do you need to de-identify them before they leave the premises, removing all host names and IP addresses? This script does that for you.
 
-I have the occasional need to send log files to Microsoft and other vendors from customers who have strict IT security requirements. These customers usually require all files be de-identified before they leave the premises,  removing all host names and IP addresses.</span></p>
+I have the occasional need to send log files to Microsoft and other vendors from customers who have strict IT security requirements. These customers usually require all files be de-identified before they leave the premises,  removing all host names and IP addresses.
+
 This can be quite a tedious process, so I've created a small script file that edits a provided text file and:
 
 - uses a "find/replace" CSV file to replace all instances of nominated text with replacement values
